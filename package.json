@@ -1,18 +1,21 @@
 {
   "name": "compare2",
+  "productName": "Compare",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "run-s serve",
-    "serve": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . --icon=app.ico --overwrite",
+    "fmt": "yarn prettier --write ."
   },
   "keywords": [],
   "author": "hikaru-yamasan",
   "license": "MIT",
   "devDependencies": {
     "electron": "^29.1.0",
+    "electron-packager": "^17.1.2",
     "prettier": "^3.2.5"
   }
 }
