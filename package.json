@@ -1,0 +1,18 @@
+{
+  "name": "compare2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-s serve",
+    "serve": "electron ."
+  },
+  "keywords": [],
+  "author": "hikaru-yamasan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "prettier": "^3.2.5"
+  }
+}
